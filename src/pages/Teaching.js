@@ -35,8 +35,8 @@ const Teaching = () => {
           <li>
             <p className='' style={{ whiteSpace: 'pre-wrap' }}>
               <a
-                rel="noreferrer" target='_blank' href='http://www.monash.edu.au/pubs/2014handbooks/units/FIT1008.html'
-                target='_blank' rel='noopener noreferrer'
+                target='_blank' href='http://www.monash.edu.au/pubs/2014handbooks/units/FIT1008.html'
+                rel='noopener noreferrer'
               >FIT1008
               </a>/FIT2085 – Introduction to Computer Science.
             </p>
