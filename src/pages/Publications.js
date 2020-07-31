@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 // import { useStaticQuery, graphql } from 'gatsby'
 // import publicationsData from '../publications.json'
 // import styled from 'styled-components'
-import {ListPublications} from './PublicationsList'
+import {ListPublications} from '../components/PublicationsList'
 
 const Publications = () => {
   
