@@ -58,8 +58,7 @@ const Main = styled.main`
   min-height: calc(100vh - 400px); 
  
   a {
-    color: #212529;
-    border-bottom: 1px solid;
+    color: #0066cc;
     padding-bottom: 1px;
     text-decoration: none;
     transition: all .5s ease-in-out;

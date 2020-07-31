@@ -1,35 +1,38 @@
 import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useStaticQuery, graphql } from 'gatsby'
-import publicationsData from '../publications.json'
-import styled from 'styled-components'
+// import { useStaticQuery, graphql } from 'gatsby'
+// import publicationsData from '../publications.json'
+// import styled from 'styled-components'
+import {ListPublications} from './PublicationsList'
 
 const Publications = () => {
   
-  const pdfPublicUrl = useStaticQuery(graphql`
-    query MyQuery {
-      allFile(filter: {extension: {eq: "pdf"}}) {
-        edges {
-          node {
-            publicURL,
-            name
-          }
-        }
-      }
-    }  
-  `)
+  // const pdfPublicUrl = useStaticQuery(graphql`
+  //   query MyQuery {
+  //     allFile(filter: {extension: {eq: "pdf"}}) {
+  //       edges {
+  //         node {
+  //           publicURL,
+  //           name
+  //         }
+  //       }
+  //     }
+  //   }  
+  // `)
     
-  const mapAllPdfs = pdfPublicUrl.allFile.edges.map((i) => i.node)
+  // const mapAllPdfs = pdfPublicUrl.allFile.edges.map((i) => i.node)
+  // console.log(mapAllPdfs)
 
   return (
     <Layout>
     <SEO title="Publications" />
     <div className='mt-3'>
-      <p>See also my 
+      {/* <p>See also my 
         <a rel="noreferrer" target='_blank' href="http://bit.ly/garcia_scholar_by_date"> Google Scholar profile</a>.
-      </p>
-      <h3>Journal Articles and Refereed Proceedings</h3>
+      </p> */}
+      <ListPublications/>
+      {/* <h3>Journal Articles and Refereed Proceedings</h3>
       <ul>
         {publicationsData.map((i, index) => (
           <PublicationItem key={index}>
@@ -48,7 +51,21 @@ const Publications = () => {
           </PublicationItem>
         ))}
       </ul>
-      
+
+      <h3>Book chapters</h3>
+      <ul>
+        <PublicationItem>
+          <i>David Green, Aldeida Aleti, and Julián García.</i>
+          <strong> The Nature of Nature: Why Nature-Inspired Algorithms Work</strong>
+          <span>2017</span>
+          <span>In Nature-Inspired Computing and Optimization. Springer International Publishing, 1-27.</span>
+          <a href='https://link.springer.com/chapter/10.1007/978-3-319-50920-4_1' rel="noreferrer"
+            target='_blank'>
+              [link to publication]
+          </a>
+        </PublicationItem>
+      </ul>
+      <p>† Joint first authorship. </p> */}
     </div>
   </Layout>
   )
@@ -56,10 +73,10 @@ const Publications = () => {
 
 export default Publications
 
-const PublicationItem = styled.li`
-  a {
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-  }
-`
+// const PublicationItem = styled.li`
+//   a {
+//     border: none;
+//     font-weight: bold;
+//     cursor: pointer;
+//   }
+// `

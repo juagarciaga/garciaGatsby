@@ -11,6 +11,7 @@ import classNames from 'classnames'
 
 export const Menu = ({ siteTitle }) => {
   const location = useLocation()
+  const HomeActive = location.pathname === '/'
   const PublicationsActive = location.pathname === '/Publications'
   const TeachingActive = location.pathname === '/Teaching'
   const ResearchActive = location.pathname === '/Research'
@@ -24,6 +25,12 @@ export const Menu = ({ siteTitle }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
+            <CustomLink 
+              className={classNames({ active: HomeActive }, 'mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link' )}
+              to="/">
+                Home
+                <BorderHover/>
+            </CustomLink>
             <CustomLink 
               className={classNames({ active: PublicationsActive }, 'mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link' )}
               to="/Publications">

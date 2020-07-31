@@ -127,7 +127,7 @@
         "title": "Direct reciprocity in structured populations (2012) PNAS 109 9929-9934.",
         "year": 2012,
         "source": "Direct reciprocity in structured populations (2012) PNAS 109 9929-9934.",
-        "pdf": 11,
+        "pdf": "11",
         "url": "https://www.pnas.org/content/109/25/9929.abstract",
         "proceedings": false,
         "undefined": "http://www.christopherxjjensen.com/2012/06/12/pnas-paper-explores-the-role-of-population-structure-in-facilitating-reciprocity/"
@@ -137,7 +137,7 @@
         "title": "Leaving the loners alone: Evolution of cooperation in the presence of antisocial punishment.",
         "year": 2012,
         "source": "Journal of Theoretical Biology 307 168-173.",
-        "pdf": 10,
+        "pdf": "10",
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022519312002457?via%3Dihub",
         "proceedings": false
     },
@@ -146,7 +146,7 @@
         "title": "The structure of mutations and the evolution of cooperation",
         "year": 2012,
         "source": "PLoS ONE 7(4): e35287.",
-        "pdf": 9,
+        "pdf": "09",
         "url": "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0035287",
         "proceedings": false
     },
@@ -155,7 +155,7 @@
         "title": "Group selection and inclusive fitness are not equivalent; the Price equation vs. models and statistics",
         "year": 2012,
         "source": "Journal of Theoretical Biology 299 64-80.",
-        "pdf": 8,
+        "pdf": "08",
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022519311003754",
         "proceedings": false,
         "undefined": "http://evolutionandgames.nl/wiki/index.php?title=Price"
@@ -165,7 +165,7 @@
         "title": "Evolution of parochial altruism by multilevel selection",
         "year": 2011,
         "source": "Evolution and Human Behavior. 32:4 277-287.",
-        "pdf": 5,
+        "pdf": "05",
         "url": "https://www.nature.com/articles/467661d.pdf",
         "proceedings": false,
         "undefined": "http://evolutionandgames.nl/wiki/index.php?title=Price"
@@ -175,7 +175,7 @@
         "title": "It takes grouping and cooperation to get sociality",
         "year": 2010,
         "source": "Journal of Theoretical Biology 264 1240-12.",
-        "pdf": 6,
+        "pdf": "06",
         "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022519310001189?via%3Dihub",
         "proceedings": false,
         "undefined": "http://evolutionandgames.nl/wiki/index.php?title=Sociality"
@@ -185,7 +185,7 @@
         "title": "Cooperation, Solution Concepts and Long-term Dynamics in the Iterated Prisoner’s Dilemma.",
         "year": 2006,
         "source": "In Proceedings of the Congress on Evolutionary Computation Conference 2006. IEEE Press, Washington, DC.",
-        "pdf": 4,
+        "pdf": "04",
         "url": "https://ieeexplore.ieee.org/document/1688502",
         "proceedings": false
     },
@@ -194,7 +194,7 @@
         "title": "On Geometric and Statistical Properties of the Attractors of a Generic Evolutionary Algorithm.",
         "year": 2004,
         "source": "In Proceedings of the Congress on Evolutionary Computation 2004. IEEE Press, Portland OR.",
-        "pdf": 2,
+        "pdf": "02",
         "url": "https://ieeexplore.ieee.org/document/1331039?arnumber=1331039",
         "proceedings": false
     },
@@ -203,7 +203,7 @@
         "title": "Co-evolutionary Learning in the Tragedy of the Commons.",
         "year": 2003,
         "source": "In Proceedings of the Congress on Evolutionary Computation 2003. IEEE Press, Canberra, Australia.",
-        "pdf": 1,
+        "pdf": "01",
         "url": "https://ieeexplore.ieee.org/document/1299945?arnumber=1299945",
         "proceedings": false
     }
