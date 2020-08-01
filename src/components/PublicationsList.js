@@ -1,22 +1,22 @@
-
-
 import React from "react"
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from "gatsby"
 
 export const ListPublications = () => {
-
-    const otherMarkdown = useStaticQuery(graphql`
+  const publicationsListMarkdown = useStaticQuery(graphql`
     query GetPublicationsMD {
-      markdownRemark(frontmatter: 
-        {title: {eq: "PublicationsList"}}
-      ) {
+      markdownRemark(frontmatter: { title: { eq: "PublicationsList" } }) {
         html
       }
-    }  
+    }
   `)
 
-  return (  
+  return (
     <div className="text-left mt-4">
-      <div dangerouslySetInnerHTML={{ __html: otherMarkdown?.markdownRemark?.html}}/>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: publicationsListMarkdown?.markdownRemark?.html,
+        }}
+      />
     </div>
-)}
+  )
+}

@@ -1,55 +1,59 @@
-import React from 'react'
-import styled from 'styled-components'
-import {Twitter} from '@styled-icons/boxicons-logos/Twitter'
-import {Email} from '@styled-icons/material/Email'
-import {Github} from '@styled-icons/evaicons-solid/Github'
-import {LocationPin} from '@styled-icons/entypo/LocationPin'
+import React from "react"
+import styled from "styled-components"
+import { Twitter } from "@styled-icons/boxicons-logos/Twitter"
+import { Email } from "@styled-icons/material/Email"
+import { Github } from "@styled-icons/evaicons-solid/Github"
+import { LocationPin } from "@styled-icons/entypo/LocationPin"
 
 export const ContactInfoBlock = () => {
-    return (
-        <Wrapper>
-            <ContactInfoItem>
-                <Email className='text-black-50'/>
-                <span>julian.garcia@monash.edu</span>
-                <a href="mailto:julian.garcia@monash.edu">julian.garcia@monash.edu</a>
-            </ContactInfoItem>
+  return (
+    <Wrapper>
+      <ContactInfoItem>
+        <Email className="text-black-50" />
+        <span>julian.garcia@monash.edu</span>
+        <a href="mailto:julian.garcia@monash.edu">julian.garcia@monash.edu</a>
+      </ContactInfoItem>
 
-            <ContactInfoItem>
-                <LocationPin className='text-danger'/>
-                <span>Melbourne, Australia</span>
-            </ContactInfoItem>
+      <ContactInfoItem>
+        <LocationPin className="text-danger" />
+        <span>Melbourne, Australia</span>
+      </ContactInfoItem>
 
-            <ContactInfoItem>
-                <Twitter className='text-info'/>
-                <span>@garcia_juliang</span>
-                <a
-                    href='https://twitter.com/garcia_juliang'
-                    rel="noreferrer"
-                    target='_blank'
-                    title='Twitter'>href='https://twitter.com/garcia_juliang'</a>
-            </ContactInfoItem>
+      <ContactInfoItem>
+        <Twitter className="text-info" />
+        <span>@garcia_juliang</span>
+        <a
+          href="https://twitter.com/garcia_juliang"
+          rel="noreferrer"
+          target="_blank"
+          title="Twitter"
+        >
+          href='https://twitter.com/garcia_juliang'
+        </a>
+      </ContactInfoItem>
 
-            <ContactInfoItem>
-                <Github/>
-                <span>@garcia_juliang</span>
-                <a
-                    href='https://github.com/garcia_juliang'
-                    rel="noreferrer"
-                    target='_blank'
-                    title='Github'>https://github.com/garcia_juliang</a>
-            </ContactInfoItem>
+      <ContactInfoItem>
+        <Github />
+        <span>@garcia_juliang</span>
+        <a
+          href="https://github.com/garcia_juliang"
+          rel="noreferrer"
+          target="_blank"
+          title="Github"
+        >
+          https://github.com/garcia_juliang
+        </a>
+      </ContactInfoItem>
 
-            <ContactInfoItem>
-                Julian García 29 Ancora Imparo Way, Clayton Faculty of Information Technology
-                Monash University VIC 3800, Australia
-            </ContactInfoItem>
-
-        </Wrapper>
-    )
+      <ContactInfoItem>
+        Julian García 29 Ancora Imparo Way, Clayton Faculty of Information
+        Technology Monash University VIC 3800, Australia
+      </ContactInfoItem>
+    </Wrapper>
+  )
 }
 
-
-const Wrapper = styled.div `
+const Wrapper = styled.div`
   @media (max-width: 426px) {
     text-align: center;
     border-top: 1px solid #ccc;
@@ -58,7 +62,7 @@ const Wrapper = styled.div `
   }
 `
 
-const ContactInfoItem = styled.div `
+const ContactInfoItem = styled.div`
   padding: 5px 0;
   display: flex;
   align-items: center;

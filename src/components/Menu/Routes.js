@@ -1,18 +1,14 @@
-import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom'
-import { Menu } from '../Menu/Menu'
-import { Home } from '../../pages/Intro'
-import { Publications } from '../../Pages/Publications'
-import { Teaching } from '../../Pages/Teaching'
-import { Research } from '../../Pages/Research'
-import { CV } from '../../pages/CV'
-import { Other } from '../../Pages/Other'
-import { ProfileSideBar } from '../ProfileSideBar/index'
-import { Container, Row, Col } from 'reactstrap'
+import React from "react"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { Menu } from "../Menu/Menu"
+import { Home } from "../../pages/Intro"
+import { Publications } from "../../Pages/Publications"
+import { Teaching } from "../../Pages/Teaching"
+import { Research } from "../../Pages/Research"
+import { CV } from "../../pages/CV"
+import { Other } from "../../Pages/Other"
+import { ProfileSideBar } from "../ProfileSideBar/index"
+import { Container, Row, Col } from "reactstrap"
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -30,27 +26,27 @@ export const Routes = () => {
         <Menu />
         <Container>
           <Row>
-            <Col xs='12' sm='4'>
+            <Col xs="12" sm="4">
               <ProfileSideBar />
             </Col>
-            <Col xs='12' sm='8'>
+            <Col xs="12" sm="8">
               <Switch>
-                <Route exact path='/'>
+                <Route exact path="/">
                   <Home />
                 </Route>
-                <Route path='/publications'>
+                <Route path="/publications">
                   <Publications />
                 </Route>
-                <Route path='/teaching'>
+                <Route path="/teaching">
                   <Teaching />
                 </Route>
-                <Route path='/research'>
+                <Route path="/research">
                   <Research />
                 </Route>
-                <Route path='/cv'>
+                <Route path="/cv">
                   <CV />
                 </Route>
-                <Route path='/other'>
+                <Route path="/other">
                   <Other />
                 </Route>
               </Switch>

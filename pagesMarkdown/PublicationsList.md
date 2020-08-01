@@ -5,6 +5,7 @@ title: PublicationsList
 See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl=en&user=nWHuAL4AAAAJ&view_op=list_works&sortby=pubdate)
 
 ### Journal Articles and Refereed Proceedings
+
 - Rui Chen, Bernd Meyer and Julian García. **A computational model of task allocation in social insects: ecology and interactions alone can drive specialisation.** (2020) Swarm Intelligence, 14, 143–170. [[pdf]](/static/5f938e8c63505d4417b19051c76dfd0a/Chen_et_al-2020-Swarm_Intelligence.pdf) [[Journal]](https://link.springer.com/article/10.1007/s11721-020-00180-4)
 
 - **Time-Dependent Decision-Making and Decentralisation in Proof-of-Work Cryptocurrencies.** (2019) In CSF — 32nd Computer Security Foundations Symposium. 108-10813. IEEE. [[pdf]](/static/7caa65d546fea70a3ec29f3cceace107/8823663.pdf) [[Proceedings]](https://ieeexplore.ieee.org/abstract/document/8823663)
@@ -15,7 +16,7 @@ See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl
 
 - Laura Hindersin, Bin Wu, Arne Traulsen and Julian García. **Computation and simulation of evolutionary Game Dynamics in Finite populations.** (2019) Scientific Reports, 9:6946. [[pdf]](/static/720a7be8d6684cfdcc8ff73019098f3f/23.pdf) [[Journal]]()
 
-- Jason Xu, Julian García, and Toby Handfield. **Cooperation with Bottom-up Reputation Dynamics.** (2019) In Proceedings of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019), Montreal, Canada, May 13–17, 2019, IFAAMAS. [[pdf]](/static/fc3c123267bd9dff67a5d2be4d6f73a5/22.pdf) 
+- Jason Xu, Julian García, and Toby Handfield. **Cooperation with Bottom-up Reputation Dynamics.** (2019) In Proceedings of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019), Montreal, Canada, May 13–17, 2019, IFAAMAS. [[pdf]](/static/fc3c123267bd9dff67a5d2be4d6f73a5/22.pdf)
 
 - Matthijs van Veelen and Julian García. **In and out of equilibrium II: Evolution in repeated games with discounting and complexity costs.** (2019) Games and Economic Behavior, 115, 113-130. [[pdf]](/static/4aeefac4ccd85f303b9a9044fb2c6680/21.pdf) [[Journal]](https://www.sciencedirect.com/science/article/abs/pii/S0899825619300314)
 
@@ -51,17 +52,17 @@ See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl
 
 - Matthijs van Veelen, Julian García and Leticia Avilés. **It takes grouping and cooperation to get sociality.** (2010) Journal of Theoretical Biology 264 1240-12. [[pdf]](/static/ed610989eb7ccc18397a1f5fc9601702/06.pdf) [[Journal]](https://www.sciencedirect.com/science/article/abs/pii/S0022519310001189?via%3Dihub) [[online feature].](http://evolutionandgames.nl/wiki/index.php?title=Sociality)
 
+* Julián García, Germán Hernandez and Juan Carlos Galeano. **Cooperation, Solution Concepts and Long-term Dynamics in the Iterated Prisoner’s Dilemma.** (2006) In Proceedings of the Congress on Evolutionary Computation Conference 2006. IEEE Press, Washington, DC. [[pdf]](/static/bb487cb58e26b48dbd2adb77a84a8d09/04.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1688502)
 
-- Julián García, Germán Hernandez and Juan Carlos Galeano. **Cooperation, Solution Concepts and Long-term Dynamics in the Iterated Prisoner’s Dilemma.** (2006) In Proceedings of the Congress on Evolutionary Computation Conference 2006. IEEE Press, Washington, DC. [[pdf]](/static/bb487cb58e26b48dbd2adb77a84a8d09/04.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1688502) 
+* Germán Hernandez, Fernando Nino, Kenneth Wilder and Julián García. **Towards a self-stopping evolutionary algorithm using coupling from the past.** 2005. InProceedings of the Genetic and Evolutionary Computation Conference 2005. ACM, Washington, DC. [[pdf]](/static/1991b1b04582910d8f60593b7ebce62a/03.pdf) [[journal]](http://dl.acm.org/citation.cfm?id=1068112).
 
-- Germán Hernandez, Fernando Nino, Kenneth Wilder and Julián García. **Towards a self-stopping evolutionary algorithm using coupling from the past.** 2005. InProceedings of the Genetic and Evolutionary Computation Conference 2005. ACM, Washington, DC. [[pdf]](/static/1991b1b04582910d8f60593b7ebce62a/03.pdf) [[journal]](http://dl.acm.org/citation.cfm?id=1068112).
+* Germán Hernandez, Fernando Nino, Julián García and Dipankar Dasgupta. **On Geometric and Statistical Properties of the Attractors of a Generic Evolutionary Algorithm.** (2004) In Proceedings of the Congress on Evolutionary Computation 2004. IEEE Press, Portland OR. [[pdf]](/static/88f4c53457474e5d6956e631c8142143/02.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1331039?arnumber=1331039)
 
-- Germán Hernandez, Fernando Nino, Julián García and Dipankar Dasgupta. **On Geometric and Statistical Properties of the Attractors of a Generic Evolutionary Algorithm.** (2004) In Proceedings of the Congress on Evolutionary Computation 2004. IEEE Press, Portland OR. [[pdf]](/static/88f4c53457474e5d6956e631c8142143/02.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1331039?arnumber=1331039)
-
-- Julián García and Fernando Nino. **Co-evolutionary Learning in the Tragedy of the Commons.** (2003) In Proceedings of the Congress on Evolutionary Computation 2003. IEEE Press, Canberra, Australia. [[pdf]](/static/faeba59ce897a575458b29c0410fe655/01.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1299945?arnumber=1299945)
-<br>
+* Julián García and Fernando Nino. **Co-evolutionary Learning in the Tragedy of the Commons.** (2003) In Proceedings of the Congress on Evolutionary Computation 2003. IEEE Press, Canberra, Australia. [[pdf]](/static/faeba59ce897a575458b29c0410fe655/01.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1299945?arnumber=1299945)
+  <br>
 
 ### Book chapters
+
 - David Green, Aldeida Aleti, and Julián García. **The Nature of Nature: Why Nature-Inspired Algorithms Work2017In Nature-Inspired Computing and Optimization.** Springer International Publishing, 1-27.[[link to publication]](https://link.springer.com/chapter/10.1007/978-3-319-50920-4_1?target=_blank).
 
 † Joint first authorship.

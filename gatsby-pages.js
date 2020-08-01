@@ -1,6 +1,6 @@
 module.exports = {
-    Info: {
-      title: `Page title`,
-      description: `Page body`
-    }
+  Info: {
+    title: `Page title`,
+    description: `Page body`,
+  },
 }

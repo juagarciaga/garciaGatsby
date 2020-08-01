@@ -5,6 +5,7 @@ date: 2020-07-23T23:41:36.246Z
 thumbnail: /static/img/237-200x200.jpg
 rating: 87
 ---
+
 # Heading 1
 
 ## Heading 2
@@ -19,4 +20,4 @@ rating: 87
 
 Body Body Body
 
-* List
+- List
