@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pdf`,
-        path: `${__dirname}/src/pdf`,
+        name: `blogPages`,
+        path: `${__dirname}/blog`,
       },
     },
     {
@@ -33,6 +33,12 @@ module.exports = {
       options: {
         name: `publications-pdf`,
         path: `${__dirname}/static/assets/publications-pdf`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `${__dirname}/src/utils/typography.js`,
       },
     },
     {
