@@ -17,7 +17,7 @@ export const Menu = ({ siteTitle }) => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Link className="navbar-brand d-lg-none" to="/">
+        <Link className="navbar-brand d-lg-none mainFont" to="/">
           {siteTitle}
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

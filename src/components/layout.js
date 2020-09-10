@@ -13,12 +13,13 @@ import styled from "styled-components"
 const Layout = ({ children }) => {
   
   const GlobalStyles = createGlobalStyle`
-  body {
-    font-family: 'Merriweather', serif !important;
+  p, li {
+    font-family: 'Merriweather', serif;
+    color: dimgrey;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif !important;
+    color: black;
   }
 `
 

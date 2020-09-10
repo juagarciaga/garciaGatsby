@@ -36,6 +36,14 @@ function SEO({ description, lang, meta, title }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       link={[{ rel: "shortcut icon", type: "image/png", href: `${favicon64}` }]}
+
+      script={[{ 
+        type: 'text/javascript', 
+        src: 'https://www.statcounter.com/counter/counter.js',
+        innerHTML: '<script type="text/javascript">var sc_project=9046962; var sc_invisible=1; var sc_security="64a6765c"; </script> <noscript><div class="statcounter"><a title="website statistics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/9046962/0/64a6765c/1/" alt="website statistics"></a></div></noscript>',
+        async: true
+      }]} 
+
       meta={[
         {
           name: `description`,

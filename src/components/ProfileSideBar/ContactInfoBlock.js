@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import { Twitter } from "@styled-icons/boxicons-logos/Twitter"
 import { Email } from "@styled-icons/material/Email"
 import { Github } from "@styled-icons/evaicons-solid/Github"
 import { LocationPin } from "@styled-icons/entypo/LocationPin"
@@ -17,19 +16,6 @@ export const ContactInfoBlock = () => {
       <ContactInfoItem>
         <LocationPin className="text-danger" />
         <span>Melbourne, Australia</span>
-      </ContactInfoItem>
-
-      <ContactInfoItem>
-        <Twitter className="text-info" />
-        <span>@garcia_juliang</span>
-        <a
-          href="https://twitter.com/garcia_juliang"
-          rel="noreferrer"
-          target="_blank"
-          title="Twitter"
-        >
-          href='https://twitter.com/garcia_juliang'
-        </a>
       </ContactInfoItem>
 
       <ContactInfoItem>
