@@ -14,7 +14,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Julian Garcia" />
       <div className="text-left mt-4">
         <div
           dangerouslySetInnerHTML={{

@@ -7,9 +7,21 @@ import { Container, Row, Col } from "react-bootstrap"
 import "./layout.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Footer } from "./Footer"
+import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
 
 const Layout = ({ children }) => {
+  
+  const GlobalStyles = createGlobalStyle`
+  body {
+    font-family: 'Merriweather', serif !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif !important;
+  }
+`
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -22,6 +34,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <GlobalStyles />
       <Menu siteTitle={data.site.siteMetadata.title} />
       <Container>
         <Row>

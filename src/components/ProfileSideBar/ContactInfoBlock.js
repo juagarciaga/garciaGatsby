@@ -34,9 +34,9 @@ export const ContactInfoBlock = () => {
 
       <ContactInfoItem>
         <Github />
-        <span>@garcia_juliang</span>
+        <span>/juliangarcia</span>
         <a
-          href="https://github.com/garcia_juliang"
+          href="https://github.com/juliangarcia"
           rel="noreferrer"
           target="_blank"
           title="Github"
