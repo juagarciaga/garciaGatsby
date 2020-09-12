@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Menu } from "./Menu/Menu"
-import { ProfileSideBar } from "./ProfileSideBar/index"
 import { Container, Row, Col } from "react-bootstrap"
 import "./layout.css"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -14,7 +13,6 @@ const Layout = ({ children }) => {
   
   const GlobalStyles = createGlobalStyle`
   p, li {
-    font-family: 'Merriweather', serif;
     color: dimgrey;
   }
 
@@ -39,10 +37,7 @@ const Layout = ({ children }) => {
       <Menu siteTitle={data.site.siteMetadata.title} />
       <Container>
         <Row>
-          <Col xs="12" sm="4">
-            <ProfileSideBar siteTitle={data.site.siteMetadata.title} />
-          </Col>
-          <Col xs="12" sm="8">
+          <Col xs="12" sm="12">
             <Main>{children}</Main>
           </Col>
         </Row>
@@ -62,6 +57,8 @@ const Main = styled.main`
   }
 
   min-height: calc(100vh - 400px);
+  max-width: 600px;
+  margin: 0 auto;
 
   a {
     color: #0066cc;

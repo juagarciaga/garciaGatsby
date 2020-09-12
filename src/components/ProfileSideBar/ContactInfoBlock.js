@@ -7,15 +7,15 @@ import { LocationPin } from "@styled-icons/entypo/LocationPin"
 export const ContactInfoBlock = () => {
   return (
     <Wrapper>
+        <i>
+          Senior Lecturer<br/>
+          Faculty of Information Technology<br/>
+          Monash University.
+        </i>
       <ContactInfoItem>
         <Email className="text-black-50" />
         <span>julian.garcia@monash.edu</span>
         <a href="mailto:julian.garcia@monash.edu">julian.garcia@monash.edu</a>
-      </ContactInfoItem>
-
-      <ContactInfoItem>
-        <LocationPin className="text-danger" />
-        <span>Melbourne, Australia</span>
       </ContactInfoItem>
 
       <ContactInfoItem>
@@ -32,8 +32,9 @@ export const ContactInfoBlock = () => {
       </ContactInfoItem>
 
       <ContactInfoItem>
-        Julian García 29 Ancora Imparo Way, Clayton Faculty of Information
-        Technology Monash University VIC 3800, Australia
+        <LocationPin className="text-danger" />
+        29 Ancora Imparo Way, Clayton<br/>
+        VIC 3800, Australia
       </ContactInfoItem>
     </Wrapper>
   )

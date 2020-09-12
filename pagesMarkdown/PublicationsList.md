@@ -4,7 +4,7 @@ title: PublicationsList
 
 See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl=en&user=nWHuAL4AAAAJ&view_op=list_works&sortby=pubdate)
 
-### Journal Articles and Refereed Proceedings
+##### Journal Articles and Refereed Proceedings
 
 - Rui Chen, Bernd Meyer and Julian García. **A computational model of task allocation in social insects: ecology and interactions alone can drive specialisation.** (2020) Swarm Intelligence, 14, 143–170. [[pdf]](/static/5f938e8c63505d4417b19051c76dfd0a/Chen_et_al-2020-Swarm_Intelligence.pdf) [[Journal]](https://link.springer.com/article/10.1007/s11721-020-00180-4)
 
@@ -61,7 +61,7 @@ See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl
 * Julián García and Fernando Nino. **Co-evolutionary Learning in the Tragedy of the Commons.** (2003) In Proceedings of the Congress on Evolutionary Computation 2003. IEEE Press, Canberra, Australia. [[pdf]](/static/faeba59ce897a575458b29c0410fe655/01.pdf) [[Journal]](https://ieeexplore.ieee.org/document/1299945?arnumber=1299945)
   <br>
 
-### Book chapters
+##### Book chapters
 
 - David Green, Aldeida Aleti, and Julián García. **The Nature of Nature: Why Nature-Inspired Algorithms Work2017In Nature-Inspired Computing and Optimization.** Springer International Publishing, 1-27.[[link to publication]](https://link.springer.com/chapter/10.1007/978-3-319-50920-4_1?target=_blank).
 

@@ -6,8 +6,8 @@ const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <h1>{post.frontmatter.title}</h1>
       <div
+        className='mt-5'
         dangerouslySetInnerHTML={{
           __html: post.html,
         }}

@@ -7,7 +7,6 @@ import classNames from "classnames"
 
 export const Menu = ({ siteTitle }) => {
   const location = useLocation()
-  const HomeActive = location.pathname === "/"
   const PublicationsActive = location.pathname === "/Publications"
   const TeachingActive = location.pathname === "/Teaching"
   const ResearchActive = location.pathname === "/Research"
@@ -16,8 +15,8 @@ export const Menu = ({ siteTitle }) => {
 
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
-        <Link className="navbar-brand d-lg-none mainFont" to="/">
+      <Container style={{maxWidth: '600px'}}>
+        <Link className="navbar-brand ProfileSideBar font-weight-bold p-0" to="/" >
           {siteTitle}
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,18 +24,8 @@ export const Menu = ({ siteTitle }) => {
           <Nav className="ml-auto">
             <CustomLink
               className={classNames(
-                { active: HomeActive },
-                "mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link"
-              )}
-              to="/"
-            >
-              Home
-              <BorderHover />
-            </CustomLink>
-            <CustomLink
-              className={classNames(
                 { active: PublicationsActive },
-                "mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link"
+                "mx-lg-1 h6 mb-lg-0  font-weight-bold nav-link"
               )}
               to="/Publications"
             >
@@ -46,7 +35,7 @@ export const Menu = ({ siteTitle }) => {
             <CustomLink
               className={classNames(
                 { active: TeachingActive },
-                "mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link"
+                "mx-lg-1 h6 mb-lg-0  font-weight-bold nav-link"
               )}
               to="/Teaching"
             >
@@ -56,7 +45,7 @@ export const Menu = ({ siteTitle }) => {
             <CustomLink
               className={classNames(
                 { active: ResearchActive },
-                "mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link"
+                "mx-lg-1 h6 mb-lg-0  font-weight-bold nav-link"
               )}
               to="/Research"
             >
@@ -66,7 +55,7 @@ export const Menu = ({ siteTitle }) => {
             <CustomLink
               className={classNames(
                 { active: CVActive },
-                "mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link"
+                "mx-lg-1 h6 mb-lg-0  font-weight-bold nav-link"
               )}
               to="/CV"
             >
@@ -76,7 +65,7 @@ export const Menu = ({ siteTitle }) => {
             <CustomLink
               className={classNames(
                 { active: OtherActive },
-                "mx-lg-4 mb-lg-0 h5 font-weight-bold nav-link"
+                "mx-lg-1 h6 mb-lg-0  font-weight-bold nav-link"
               )}
               to="/Other"
             >
