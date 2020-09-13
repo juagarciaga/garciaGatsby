@@ -14,8 +14,7 @@ export const ContactInfoBlock = () => {
         </i>
       <ContactInfoItem>
         <Email className="text-black-50" />
-        <span>julian.garcia@monash.edu</span>
-        <a href="mailto:julian.garcia@monash.edu">julian.garcia@monash.edu</a>
+        <a href="javascript:location='mailto:\u006a\u0075\u006c\u0069\u0061\u006e\u002e\u0067\u0061\u0072\u0063\u0069\u0061\u0040\u006d\u006f\u006e\u0061\u0073\u0068\u002e\u0065\u0064\u0075';void 0"><script type="text/javascript">document.write('\u006a\u0075\u006c\u0069\u0061\u006e\u002e\u0067\u0061\u0072\u0063\u0069\u0061\u0040\u006d\u006f\u006e\u0061\u0073\u0068\u002e\u0065\u0064\u0075')</script></a>
       </ContactInfoItem>
 
       <ContactInfoItem>
