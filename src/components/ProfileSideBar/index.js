@@ -11,7 +11,7 @@ export const ProfileSideBar = ({ siteTitle }) => {
 
   return (
     <Wrapper className="text-left mt-3 d-flex">
-      <div style={{width: '40%'}}>
+      <div style={{width: '40%', margin: '0 auto 5px'}}>
         {showPictureProfile && (
           <Link to="/">
             <div className="d-block img-thumbnail mr-3">
