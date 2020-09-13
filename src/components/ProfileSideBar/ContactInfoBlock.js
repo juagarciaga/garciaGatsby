@@ -8,6 +8,7 @@ export const ContactInfoBlock = () => {
   return (
     <Wrapper>
         <i>
+          Department of Artificial Intelligence and Data Science<br/>
           Faculty of Information Technology<br/>
           Monash University.
         </i>
