@@ -2,6 +2,6 @@
 title: CV
 ---
 
-A short recent résumé can be found [here](/static/f1539f7f14a17f1a605b234cc1cd3d8f/cvgarcia.pdf).
+A short recent résumé can be found [here](https://www.dropbox.com/s/gbmpa4zu4fs15ie/cv_garcia.pdf?dl=1).
 
 Please email me for a full up to date CV.
