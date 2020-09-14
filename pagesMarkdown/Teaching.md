@@ -3,7 +3,7 @@ title: Teaching
 ---
 
 I am the Director of the Computer Science Undergraduate Degrees at Monash
-[BSc Computer Science](https://www.monash.edu/study/courses/find-a-course/2020/computer-science-c2001) [BSc Computer Science with Honours](https://www.monash.edu/study/courses/find-a-course/2020/computer-science-advanced-c3001?domestic=true) and [BSc Computer Science Advanced](https://www.monash.edu/study/courses/find-a-course/2020/computer-science-advanced-c3001?domestic=true)
+[BSc Computer Science](https://www.monash.edu/study/courses/find-a-course/2020/computer-science-c2001), [BSc Computer Science with Honours](https://www.monash.edu/study/courses/find-a-course/2020/computer-science-advanced-c3001?domestic=true), and [BSc Computer Science Advanced](https://www.monash.edu/study/courses/find-a-course/2020/computer-science-advanced-c3001?domestic=true).
 
 I currently teach [Computational Modelling and Simulation](https://handbook.monash.edu/2020/units/FIT3139) (formerly known as Computational Science).
 
