@@ -8,8 +8,8 @@ My research revolves around the question of how groups of agents can learn to co
 
 ###### **Current Grants**
 
-- Australian Research Council – DP190100041. Governing the knowledge commons. 2019–2022.
-- Australian Research Council – DP180100154. Modelling collective behaviour to protect social insect ecosystem services. 2018–2021.
+- Australian Research Council – [DP190100041](https://researchdata.edu.au/discovery-projects-grant-id-dp190100041/1378164). Governing the knowledge commons. 2019–2022.
+- Australian Research Council – [DP180100154](https://researchdata.edu.au/discovery-projects-grant-id-dp180100154/1315579). Modelling collective behaviour to protect social insect ecosystem services. 2018–2021.
 
 ###### **PhD opportunities**
 
