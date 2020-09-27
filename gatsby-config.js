@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Julian Garcia`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Julian Garcia. Monash University. Computer Science. Cooperation.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -68,8 +68,12 @@ module.exports = {
         icon: `src/images/download.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-179113723-1",
+      },
+    },
   ],
 }
