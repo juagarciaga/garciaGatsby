@@ -14,7 +14,7 @@ export const Menu = ({ siteTitle }) => {
   const OtherActive = location.pathname === "/Other"
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{position: 'fixed', top: '0',  width: '100%', zIndex: '1'}}>
       <Container style={{maxWidth: '600px'}}>
         <Link className="navbar-brand ProfileSideBar font-weight-bold p-0" to="/" >
           {siteTitle}

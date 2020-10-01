@@ -52,6 +52,7 @@ Layout.propTypes = {
 }
 const MainContainer = styled(Container)`
   min-height: calc(100vh - 124px);
+  margin-top: 56px;
 `
 
 const Main = styled.main`
