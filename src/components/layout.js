@@ -35,13 +35,13 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyles />
       <Menu siteTitle={data.site.siteMetadata.title} />
-      <Container>
+      <MainContainer>
         <Row>
           <Col xs="12" sm="12">
             <Main>{children}</Main>
           </Col>
         </Row>
-      </Container>
+      </MainContainer>
       <Footer />
     </>
   )
@@ -50,13 +50,11 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+const MainContainer = styled(Container)`
+  min-height: calc(100vh - 124px);
+`
 
 const Main = styled.main`
-  @media (min-width: 426px) {
-    min-height: calc(100vh - 63px);
-  }
-
-  min-height: calc(100vh - 400px);
   max-width: 600px;
   margin: 0 auto;
 

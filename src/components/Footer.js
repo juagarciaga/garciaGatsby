@@ -4,7 +4,7 @@ import { ContactInfoBlock } from "./ProfileSideBar/ContactInfoBlock"
 
 export const Footer = () => {
   return (
-    <FooterWrapp>
+    <footer>
       <div className="d-block d-sm-none">
         <ContactInfoBlock />
       </div>
@@ -13,15 +13,9 @@ export const Footer = () => {
           Copyright © {new Date().getFullYear()} - Julián García
         </span>
       </CopyRightRow>
-    </FooterWrapp>
+    </footer>
   )
 }
-const FooterWrapp = styled.div`
-  /* @media (max-width: 426px) {
-    position: absolute;
-    bottom: 0;
-  } */
-`
 
 const CopyRightRow = styled.div`
   background-color: #f8f9fa;
