@@ -6,6 +6,8 @@ See also my [Google Scholar profile.](https://scholar.google.com.au/citations?hl
 
 ##### Journal Articles and Refereed Proceedings
 
+- Alan Dorin, Tim Taylor, Martin Burd, Julian García, Mani Shrestha and Adrian G. Dyer. **Competition and pollen wars: simulations reveal the dynamics of competition mediated through heterospecific pollen transfer by non-flower constant insects.** (2020) Theoretical Ecology. [[pdf]](https://www.dropbox.com/s/cqcg9u8mx75n1dm/Dorin2020_Article_CompetitionAndPollenWarsSimula.pdf?dl=1) [[Journal]](https://doi.org/10.1007/s12080-020-00490-7)
+
 - Rui Chen, Bernd Meyer and Julian García. **A computational model of task allocation in social insects: ecology and interactions alone can drive specialisation.** (2020) Swarm Intelligence, 14, 143–170. [[pdf]](/static/5f938e8c63505d4417b19051c76dfd0a/Chen_et_al-2020-Swarm_Intelligence.pdf) [[Journal]](https://link.springer.com/article/10.1007/s11721-020-00180-4)
 
 - **Time-Dependent Decision-Making and Decentralisation in Proof-of-Work Cryptocurrencies.** (2019) In CSF — 32nd Computer Security Foundations Symposium. 108-10813. IEEE. [[pdf]](/static/7caa65d546fea70a3ec29f3cceace107/8823663.pdf) [[Proceedings]](https://ieeexplore.ieee.org/abstract/document/8823663)
