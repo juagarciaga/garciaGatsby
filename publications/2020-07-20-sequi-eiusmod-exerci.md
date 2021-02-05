@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Sequi eiusmod exerci
+title: 1 Sequi eiusmod exerci
 date: 2020-07-23T23:41:36.246Z
 thumbnail: /static/img/237-200x200.jpg
 rating: 87
